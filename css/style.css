@@ -1,0 +1,138 @@
+body.a {
+    background-color: black;
+}
+#board{
+    position: relative;
+    width: 750px;
+    height: 632px;
+    margin: auto;
+    background: url("../img/board.jpg") no-repeat;
+    
+}
+#messageArea{
+    position: absolute;
+    top: 25px;
+    left: 0;
+    color: rgb(83, 175, 19);
+    font-size: 20px;
+} 
+table{
+    position: absolute;
+    top: 72px;
+    left: 127px;
+    border-spacing: 0;
+
+}
+td{
+    width: 70px;
+    height: 70px;
+}
+form{
+    position: absolute;
+    top: 25px;
+    right: 0;
+    padding: 7px;
+    background-color: rgb(83, 175, 19);
+}
+form input{
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+}
+.form-control {
+	width: 70% !important;
+	margin-right: 5%;
+}
+.hit {
+	background: url("../img/ship.png") no-repeat center center;
+}
+.miss {
+	background: url("../img/miss.png") no-repeat center center;
+}
+.img{
+    position: absolute;
+    left: 5px ;
+    
+}
+.text{
+    position: absolute;
+    top:75px;
+    left:75px;
+    color: rgb(175, 18, 131);
+}
+.text2{
+    position: absolute;
+    top:150px;
+    left:75px;
+    color: rgb(175, 18, 137);
+}
+.text3{
+    position: absolute;
+    top:225px;
+    left:75px;
+    color: rgb(175, 18, 150);
+}
+.text4{
+    position: absolute;
+    top:300px;
+    left:75px;
+    color: rgb(175, 18, 111);
+}
+
+.text1{
+    position: absolute;
+    top:175px;
+    right:125px;
+    font-size: 140px;
+    color: rgb(82, 175, 18);
+}
+#h{
+    font-size: 150px;
+}
+h1 {
+    height: 100px;
+  }
+  
+  h1 span {
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .3s ease infinite alternate;
+    font-family: 'Titan One', cursive;
+    font-size: 80px;
+    color: rgb(175, 18, 92);
+    text-shadow: 0 1px 0 #80005B,
+                 0 2px 0 #800056,
+                 0 3px 0 #80003C,
+                 0 4px 0 #800066,
+                 0 5px 0 #800056,
+                 0 6px 0 transparent,
+                 0 7px 0 transparent,
+                 0 8px 0 transparent,
+                 0 9px 0 transparent,
+                 0 10px 10px rgba(143, 19, 82, 0.40);
+  }
+  
+  h1 span:nth-child(2) { animation-delay: .1s; }
+  h1 span:nth-child(3) { animation-delay: .2s; }
+  h1 span:nth-child(4) { animation-delay: .3s; }
+  h1 span:nth-child(5) { animation-delay: .4s; }
+  h1 span:nth-child(6) { animation-delay: .5s; }
+  h1 span:nth-child(7) { animation-delay: .6s; }
+  h1 span:nth-child(8) { animation-delay: .7s; }
+  
+  @keyframes bounce {
+    100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #ADF332,
+                   0 2px 0 #D5F332,
+                   0 3px 0 #90BECF,
+                   0 4px 0 #94CC32,
+                   0 5px 0 #35CC32,
+                   0 6px 0 #CC319A,
+                   0 7px 0 #CC7832,
+                   0 8px 0 #3245CC,
+                   0 9px 0 #81CC32,
+                   0 50px 25px #f33340;
+    }
+  }
